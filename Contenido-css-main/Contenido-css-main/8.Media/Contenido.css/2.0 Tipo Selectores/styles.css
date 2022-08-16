@@ -1,0 +1,91 @@
+/*
+1. Selector por etiqueta: cambia el estilo a todas las etiquetas por cuestion, se coloca directamente el nombre de la etiqueta.
+2. Selector por clase: cambia o modifica el estilo de el elemento en donde se mencione la clase en el atributo class para crear
+    un estilo por clase se coloca .nombreEstilo
+3. Selector por identificador es decir por el id, modifica el estilo de el elemento que posea el id
+4. Selector universal *
+*/
+/************************************************************************/
+/*1. por etiqueta*/
+p{
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 24px;
+    background-color: aquamarine;
+}
+h1{
+
+}
+h2{
+
+}
+section {
+
+}
+aside{
+
+}
+
+/* 
+2. selector por clase o class */
+.subtitulo{
+    text-align: center;
+    color:burlywood ;
+    background-color: blue ;
+}
+/*
+3. Selector por ID */
+#info{
+    border-radius: 5px;
+    background-color: rgb(255, 239, 198);
+    color:rgb(0, 0, 0) ;
+    padding: red;
+
+}
+/* 
+4. selector por atributo
+*/
+[class]{
+    /* se aplicara a todos los elementos que tengan atributo class*/
+    background-color: rgb(181, 250, 181);
+    color:black
+
+}
+/* combinadores*/
+a[href]{
+    text-align: center;
+    margin-left: 2%;
+    color: darkviolet;
+}
+/*Utilizando sufijos*/
+a[href$=".com"]{
+    margin-left: 4%;
+    color: cyan;
+}
+/* utilizando prefijos*/
+[clas^="as"]{
+    font-size: 25px;
+}
+
+a[href$=".org"]{
+text-align: center;
+margin-left: 6%;
+color: yellow;
+
+}
+a[href$="org"]{
+margin-left:29%;
+color: darkmagenta;
+}
+a[href$=".com"]{
+    margin-left: ;
+    color: forestgreen;
+
+}
+
+div > p {
+    background-color: rgb(51, 15, 255);
+    margin-left: 25%;
+
+
+
+}
